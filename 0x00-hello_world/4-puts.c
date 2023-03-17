@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 /**
- * puts function put to the test
- */
+ * main function as entry point
+ *
+ * Description: this programme will print with puts and not printf
+ *
+ * Return 0
+*/
 
 int main(void)
 {
