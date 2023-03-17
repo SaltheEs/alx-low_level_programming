@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main function as entry point
+ * main - Entry point
  *
  * Description: this programme will print with puts and not printf
  *
- * Return 0
+ * Return: Always 0 (Success)
 */
 
 int main(void)
