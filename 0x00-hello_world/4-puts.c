@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* puts function put to the test */
+/**
+ * puts function put to the test
+ */
 
 int main(void)
 {
