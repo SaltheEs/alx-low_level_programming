@@ -11,9 +11,12 @@
 
 int main(void)
 {
-	char letter = scanf("%c", &letter);
+	int i;
 
-	putchar(tolower(letter));
+	for (i = 0; i < 26; i++)
+	{
+		putchar(tolower('A' + i));
+	}
 
 	return (0);
 }
