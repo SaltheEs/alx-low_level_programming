@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Entry point
@@ -10,7 +11,8 @@
 
 int main(void)
 {
-	scanf("%c", &letter);
+	char letter = scanf("%c", &letter);
+
 	putchar(tolower(letter));
 
 	return (0);
