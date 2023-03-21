@@ -16,7 +16,9 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (lt != 'e' && lt != 'q')
+		if (lt == 'e' || lt == 'q')
+			putchar('');
+		else
 			putchar(tolower(lt + i));
 	}
 	putchar('\n');
