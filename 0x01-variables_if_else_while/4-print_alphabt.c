@@ -14,12 +14,12 @@ int main(void)
 	int i;
 	char lt = 'a';
 
-	for (i = 0; i < 26; i++)
+	while (lt <= 'z')
 	{
 		if (lt == 'e' || lt == 'q')
-			putchar('');
-		else
-			putchar(tolower(lt + i));
+			lt++;
+		putchar(lt);
+		lt++;
 	}
 	putchar('\n');
 
