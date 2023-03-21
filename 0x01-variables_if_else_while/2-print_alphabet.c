@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(tolower('A' + i));
 	}
-	putchar("");
+	putchar('\n');
 
 	return (0);
 }
