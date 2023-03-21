@@ -18,7 +18,7 @@ int main(void)
 		putchar(tolower('A' + i));
 	}
 	for (i = 0; i < 26; i++)
-        {
+	{
 		putchar(toupper('A' + i));
 	}
 	putchar('\n');
