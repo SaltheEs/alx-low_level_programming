@@ -12,7 +12,7 @@
 int main(void)
 {
 	int i;
-	char lt = 'a'
+	char lt = 'a';
 
 	for (i = 0; i < 26; i++)
 	{
