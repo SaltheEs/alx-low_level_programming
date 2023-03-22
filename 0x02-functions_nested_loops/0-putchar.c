@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
- * this programme will print _putchar in stdout using putchar
+ * Description: prints _putchar in stdout using putchar
  *
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 	_putchar ('_');
