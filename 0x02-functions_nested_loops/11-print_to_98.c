@@ -4,7 +4,7 @@
  * print_to_98 - prints all numbers from 98
  * @n: is the number from where we start the count
 */
-void void print_to_98(int n)
+void print_to_98(int n)
 {
 	int i, j;
 	if (n<=98)
